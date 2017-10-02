@@ -41,7 +41,7 @@ input {
 	display: block;
 	margin-top: 0.2em;
 	margin-bottom: 1em;
-	font-size: 1.1em;
+	font-size: 1em;
 }
 table {
 	border: 1px solid gray;
@@ -54,6 +54,7 @@ tr:nth-child(odd) {
 tr:nth-child(even) {
 	background-color: #ffffff;
 }
+
 nav ul {
 	background-color: #ff8040;
 	padding: 0.4em 0;
