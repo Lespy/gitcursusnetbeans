@@ -9,6 +9,6 @@
 <body>
 	<vdab:menu/>
 	<h1>Pagina niet gevonden</h1>
-	<img alt="404- DOES NOT EXIST" src="WebContent/WEB-INF/images/404.jpg">
+	<p>De pagina die u zocht bestaat niet op onze website.</p>
 </body>
 </html>

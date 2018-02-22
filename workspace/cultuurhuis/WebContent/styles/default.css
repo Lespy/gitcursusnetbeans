@@ -1,7 +1,8 @@
+/* cultuurhuis */
+
 @charset "UTF-8";
 body {
 	color: #5A0000;
-	background: #fbfeba;
 	font-family: sans-serif;
 }
 dd,dt {
@@ -40,7 +41,7 @@ input {
 	display: block;
 	margin-top: 0.2em;
 	margin-bottom: 1em;
-	font-size: 1.1em;
+	font-size: 1em;
 }
 table {
 	border: 1px solid gray;
@@ -49,12 +50,32 @@ table {
 tr:nth-child(odd) {
 	background-color: #e6e6e6;
 }
+
+tr:nth-child(even) {
+	background-color: #ffffff;
+}
+
+nav ul {
+	background-color: #ff8040;
+	padding: 0.4em 0;
+}
+
 nav li {
 	display: inline;
 }
-nav ul {
-	padding: 0.4em 0;
+
+nav li a {
+	color: white;
+	font-weight: bold;
+	padding-left: 0.5em;
+	text-decoration: none;
+	vertical-align: middle;
 }
+
+nav li a:hover {
+	color: #ff8040;
+}
+
 #menu .hidden {
 	display: none;
 }

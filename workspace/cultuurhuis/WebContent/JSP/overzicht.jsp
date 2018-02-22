@@ -8,7 +8,7 @@
 	<vdab:head title='Overzicht'/>
 </head>
 <body>
-	<h1>Het Cultuurhuis:overzicht
+	<h1>Het Cultuurhuis: overzicht
 		<img src="<c:url value='/images/bevestig.png'/>" alt='Bevestig'>
 	</h1>
 	<vdab:menu/>

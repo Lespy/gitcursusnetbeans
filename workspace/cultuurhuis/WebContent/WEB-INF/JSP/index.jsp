@@ -9,7 +9,7 @@
 </head>
 <body>
 	<h1>
-		Het Cultuurhuis: voorstellingen <img
+		Het Cultuurhuis:voorstellingen <img
 			src=<c:url value='/images/voorstellingen.png'/> alt='voorstellingen'>
 	</h1>
 	<vdab:menu voorstellingen='hidden' />
@@ -25,7 +25,7 @@
 		</c:when>
 		<c:otherwise>
 			<table>
-				<caption>${genre.naam} voorstellingen</caption>
+				<caption>${genre.naam}voorstellingen</caption>
 				<tr>
 					<th>Datum</th>
 					<th>Titel</th>
